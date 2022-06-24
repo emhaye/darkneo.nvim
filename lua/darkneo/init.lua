@@ -31,10 +31,11 @@ local Packer = require("darkneo.Packer")
 local SymbolOutline = require("darkneo.SymbolOutline")
 local Notify = require("darkneo.Notify")
 local Misc = require("darkneo.Misc")
+local Gps = require("darkneo.Gps")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Packer, SymbolOutline, Notify, Misc
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Packer, SymbolOutline, Notify, Misc, Gps
 }
 
 for _, skeleton in ipairs(skeletons) do
