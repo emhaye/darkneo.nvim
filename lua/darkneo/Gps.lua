@@ -1,5 +1,5 @@
 local Gps = {
-	GpsNormal = {fg = C.gray, bg = "#1d1d1d", style= "italics", },
+	GpsNormal = {fg = C.gray, bg = "#1d1d1d", style= "italic", },
 	GpsItemKindFunction = {fg = C.ui_purple, },
 	GpsItemKindMethod = {fg = C.ui_purple, },
 	GpsItemKindConstructor = {fg = C.ui_orange, },

@@ -1,6 +1,6 @@
 local highlights = {
 		Normal = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
-    WinSeparator = { fg = C.bg, bg = C.bg },
+		WinSeparator = { fg = C.bg, bg = C.bg },
 		SignColumn = {bg = C.bg, },
 		MsgArea = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
 		ModeMsg = {fg = C.fg, bg = C.bg, },
